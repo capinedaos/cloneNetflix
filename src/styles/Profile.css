@@ -1,0 +1,38 @@
+.profile {
+  color: #fff;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+}
+
+.info img {
+  height: 100px;
+}
+
+.info {
+  width: 80%;
+  display: flex;
+}
+
+.details {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.details h6 {
+  background-color: #aaa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.plans {
+  width: 100%;
+}
+
+.plans .text {
+  border-bottom: 1px solid lightgray;
+}

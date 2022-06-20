@@ -1,0 +1,75 @@
+.logo {
+  width: 100px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.login {
+  position: relative;
+  background-image: url(../images/img-login.webp);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-logo-button {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.container-logo-button .button {
+  margin: 10px;
+}
+
+.content-login {
+  max-width: 30rem;
+  min-height: 30rem;
+  margin: 10px;
+  /* border: 2px solid #fff; */
+}
+
+.content-login h2 {
+  font-size: 30px;
+}
+
+.content-login h2,
+p {
+  color: #fff;
+}
+
+.content-login p {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.input-button {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 3rem;
+  min-width: 10rem;
+  padding-left: auto;
+  padding-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-button input {
+  width: 13rem;
+  height: 2.4rem;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+}
+
+.input-button .button,
+.input-button input {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,9 @@
+.button button {
+  color: #fff;
+  background-color: red;
+  padding: 15px;
+  font-size: 1.1rem;
+  text-transform: inherit;
+  border: none;
+  outline: none;
+}
